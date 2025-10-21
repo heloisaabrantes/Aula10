@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moletom SYNC Premium | VesteBem</title>
+
+    <link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+</head>
+<body>
+    <header class="main-header">
+    <div class="logo">
+        <img src="img/logo-VB.webp" alt="Logo VesteBem">
+        </div>
+
+    <div class="search-bar-container">
+        <input type="search" placeholder="Buscar produtos..." class="search-input">
+        <button class="search-button">
+            <i class="fa-solid fa-magnifying-glass"></i> 
+        </button>
+    </div>
+    
+    
+    <nav class="main-nav">
+        <ul>
+            <a href="index.html"> <li>Início</li></a>
+            <a href="feminino.html"> <li>Feminino</li> </a>
+            <a href="masculino.html"> <li>Masculino</li> </a>
+            <a href="Acessorios.html"> <li>Acessórios</li> </a>
+            <a href="contato.html"><li>Contato</li> </a>
+        </ul>
+    </nav>
+</header>
+
+
+    <section class="banner">
+        <div class="banner-overlay"></div>
+        <div class="banner-content">
+            
+        </div>
+    </section>
+
+    <main class="product-container">
+    
+        <section class="image-gallery">
+            
+            <div class="main-image product-image-hover">
+                <img 
+                    id="featured-image" 
+                    class="default-img" 
+                    src="img/bordofrente.webp" 
+                    alt="Moletom SYNC Premium - Vista frontal"
+                >
+                
+                <img 
+                    id="hover-image" 
+                    class="hover-img" 
+                    src="img/bordocostas.webp" 
+                    alt="Moletom SYNC Premium - Vista das costas"
+                >
+            </div>
+            
+            <div id="thumbnail-container" class="thumbnail-container">
+            </div>
+            
+        </section>
+
+        <section class="product-details-content">
+            <h1 class="product-name">Moletom SYNC Premium</h1>
+            <p class="product-price">R$ 189,90</p>
+            
+            <div class="color-options">
+                <h2 class="option-title">Cores:</h2>
+                <div id="color-selector" class="color-selector">
+                </div>
+            </div>
+
+            <div class="size-options">
+                <h2 class="option-title">Tamanho:</h2>
+                <div class="size-selector">
+                    <button class="size-button active">P</button>
+                    <button class="size-button">M</button>
+                    <button class="size-button">G</button>
+                    <button class="size-button">GG</button>
+                </div>
+            </div>
+
+           <div class="quantity-input-group">
+    <button id="qty-minus" aria-label="Diminuir quantidade">-</button>
+    <input type="text" id="qty-input" value="1" readonly>
+    <button id="qty-plus" aria-label="Aumentar quantidade">+</button>
+</div>
+
+            <button class="buy-button">Comprar</button>
+
+            <div class="shipping-info">
+                <input type="text" placeholder="Insira seu CEP">
+                <button class="check-shipping">Calcular Frete</button>
+            </div>
+            
+            <ul class="product-features">
+                <li>- Moletom de Algodão Fio 30.1</li>
+                <li>- Flanelado por dentro para máximo conforto</li>
+                <li>- Capuz Forrado e Ajustável</li>
+                <li>- Costura Reforçada (Ponto Zafira)</li>
+            </ul>
+        </section>
+    </main>
+
+
+    <footer class="footer">
+    <div class="footer-container">
+        
+        <div>
+            <h3>Navegue</h3>
+            <ul>
+                    <a href="index.html"> <li>Início</li></a>
+                    <a href="feminino.html"> <li>Feminino</li> </a>
+                    <a href="masculino.html"> <li>Masculino</li> </a>
+                    <a href="Acessorios.html"> <li>Acessórios</li> </a>
+            </ul>
+        </div> <div>
+            <h3>Contato</h3>
+            <ul>
+                <li>Tel (16) 99456-7788</li>
+                <li>Rua das flores - Monte Alto/SP</li>
+                <a href="mailto:Contato@VesteBem.com.br"><li>Contato@primecar.com.br</li> </a>
+            </ul>
+        </div> <div>
+            <h3>Sobre</h3>
+            <p>Especialistas em vestir o essencial, do jeito certo.</p>
+        </div> <div>
+            <h3>Acompanhe</h3>
+            <div class="social-links">
+                <a href=""> <i class="fa-brands fa-facebook"></i> </a>
+                <a href=""> <i class="fa-brands fa-instagram"></i> </a>
+                <a href=""> <i class="fa-brands fa-x-twitter"></i> </a>
+            </div>
+        </div> </div>
+    <div>
+
+        <p>&copy; 2025 - VesteBem - Todos os direitos revelados</p>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
